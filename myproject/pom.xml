@@ -5,7 +5,7 @@
   <groupId>seleniumproject</groupId>
   <artifactId>myproject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Publish Runner</name>
+	<name>Test</name>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -21,16 +21,11 @@
 			<version>3.141.59</version>
 		</dependency>
 		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>3.1.5</version>
+			 <groupId>com.aventstack</groupId>
+    		<artifactId>extentreports</artifactId>
+    		<version>3.1.5</version>
 		</dependency>
-		<dependency>
-			<groupId>net.lightbody.bmp</groupId>
-			<artifactId>browsermob-core</artifactId>
-			<version>2.1.5</version>
-			<scope>test</scope>
-		</dependency>
+		
 	</dependencies>
 
 	<build>

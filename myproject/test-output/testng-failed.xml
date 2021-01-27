@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BaseSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="searchTest(failed)">
+    <parameter name="password" value="Test*011"/>
+    <parameter name="mail" value="TestAut78415855"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="myproject.ProjectClass">
+        <methods>
+          <include name="searchTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="closeTest"/>
+        </methods>
+      </class> <!-- myproject.ProjectClass -->
+    </classes>
+  </test> <!-- searchTest(failed) -->
+</suite> <!-- Failed suite [BaseSuite] -->

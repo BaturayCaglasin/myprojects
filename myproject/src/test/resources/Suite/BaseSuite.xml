@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BaseSuite" verbose="1">
+
+    <test name="searchTest">
+    	<parameter name="browser" value="chrome" />
+        <parameter name="mail" value="TestAut78415855" />
+        <parameter name="password" value="Test*011" />
+        <classes>
+            <class name="myproject.ProjectClass" />
+        </classes>
+    </test>
+</suite>
